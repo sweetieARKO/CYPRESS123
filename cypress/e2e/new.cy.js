@@ -1,4 +1,5 @@
 describe('template spec', () => {
+ 
   it('passes', () => {
   cy.visit("https://demo.opencart.com/index.php?route=account/register&language=en-gb") 
   cy.get("#input-firstname").type("Abigail")
